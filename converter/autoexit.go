@@ -14,8 +14,8 @@ import (
 	"go/token"
 	"go/types"
 
-	"github.com/yunabe/lgo/core"
-	"github.com/yunabe/lgo/parser"
+	"github.com/mweglarz/lgo/core"
+	"github.com/mweglarz/lgo/parser"
 )
 
 func containsCall(expr ast.Expr) bool {

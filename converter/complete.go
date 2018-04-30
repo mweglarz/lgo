@@ -10,7 +10,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/yunabe/lgo/parser"
+	"github.com/mweglarz/lgo/parser"
 )
 
 var prefixRegex map[string]*regexp.Regexp

@@ -12,8 +12,8 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/yunabe/lgo/cmd/lgo/install"
-	"github.com/yunabe/lgo/cmd/runner"
+	"github.com/mweglarz/lgo/cmd/lgo/install"
+	"github.com/mweglarz/lgo/cmd/runner"
 )
 
 const usage = `lgo is a tool to build and execute Go code interactively.append

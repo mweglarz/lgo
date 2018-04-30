@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/yunabe/lgo/cmd/install"
-	"github.com/yunabe/lgo/core" // This import is also important to install the core package to GOPATH when lgo-install is installed.
+	"github.com/mweglarz/lgo/cmd/install"
+	"github.com/mweglarz/lgo/core" // This import is also important to install the core package to GOPATH when lgo-install is installed.
 )
 
 // recordStderr invokes `tee` command to store logs and stderr of this command to install.log.
@@ -113,7 +113,7 @@ func InstallMain() {
 
 	log.Print("Installing lgo-internal")
 	cmd = exec.Command("go", "build", "-pkgdir", pkgDir, "-linkshared",
-		"-o", path.Join(binDir, "lgo-internal"), "github.com/yunabe/lgo/cmd/lgo-internal")
+		"-o", path.Join(binDir, "lgo-internal"), "github.com/mweglarz/lgo/cmd/lgo-internal")
 	cmd.Stderr = os.Stderr
 	cmd.Stdout = os.Stdout
 

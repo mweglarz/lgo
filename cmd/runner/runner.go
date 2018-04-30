@@ -16,9 +16,9 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/yunabe/lgo/cmd/install"
-	"github.com/yunabe/lgo/converter"
-	"github.com/yunabe/lgo/core"
+	"github.com/mweglarz/lgo/cmd/install"
+	"github.com/mweglarz/lgo/converter"
+	"github.com/mweglarz/lgo/core"
 )
 
 /*

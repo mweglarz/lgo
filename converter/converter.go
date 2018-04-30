@@ -14,9 +14,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/yunabe/lgo/cmd/install"
-	"github.com/yunabe/lgo/core" // This is also important to install core package to GOPATH when this package is tested with go test.
-	"github.com/yunabe/lgo/parser"
+	"github.com/mweglarz/lgo/cmd/install"
+	"github.com/mweglarz/lgo/core" // This is also important to install core package to GOPATH when this package is tested with go test.
+	"github.com/mweglarz/lgo/parser"
 )
 
 const lgoInitFuncName = "lgo_init"
