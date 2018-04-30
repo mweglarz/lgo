@@ -7,8 +7,8 @@ import (
 	"io"
 	"strings"
 
+	"github.com/mweglarz/lgo/parser"
 	"github.com/peterh/liner"
-	"github.com/yunabe/lgo/parser"
 )
 
 func parseLesserGoString(src string) (f *parser.LGOBlock, err error) {
